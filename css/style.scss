@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+}
+
+body {
+  form {
+    table {
+      margin: 0 auto;
+      :where(tbody, td, tfoot, th, thead, tr) {
+        border: 1px solid black;
+        padding: 5px;
+      }
+    }
+    .border {
+      border: none;
+    }
+  }
+}
